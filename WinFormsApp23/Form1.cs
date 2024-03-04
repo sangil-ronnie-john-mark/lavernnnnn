@@ -104,7 +104,7 @@ namespace WinFormsApp23
         private void txtCash_TextChanged(object sender, EventArgs e)
         {
             double total = double.Parse(lblTotal.Text);
-            double cash = double.Parse(txtCash.Text)
+            double cash = double.Parse(txtCash.Text);
             if (cash >= total) {
             btnPurchase.Enabled = true;
             } else
